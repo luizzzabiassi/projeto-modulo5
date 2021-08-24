@@ -1,23 +1,22 @@
-import {Component} from 'react';
 import './Assets/App.css';
 import './Assets/index.css'
-
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Header from './Components/Header/Header';
-import Content from './Components/Content/Content';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Drinks from './Components/Drinks/Drinks';
 
 function App() {
   return (
     <BrowserRouter>
-    <Header/>
-    <Content>
+    <Header />
+
     <Switch>
-      <Route path="/" component={Home} exact/>
+      <Route path="/" component={Home} exact />
+      <Route path="/drinks" component={Drinks} exact />
     </Switch>
-    </Content>
+
     <Footer />
   </BrowserRouter>
   );
