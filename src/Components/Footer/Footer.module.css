@@ -1,0 +1,7 @@
+.footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #001144;
+  color: #cfcf3c;
+  text-align: center;
+}
