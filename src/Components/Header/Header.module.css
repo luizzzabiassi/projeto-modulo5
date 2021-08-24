@@ -1,0 +1,37 @@
+.cabecalho{
+    display: grid;
+    grid-template-columns: 5fr;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #001144;
+  }
+     
+  .nav{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+  }
+  
+  .logo{
+    font-size: 36px;
+    text-decoration: none;
+    padding: 8px;
+    align-self: center;
+  }
+     
+  .item{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;  
+    list-style: none;
+    text-decoration: none;
+    color: #CFCF3C;
+    font-weight: bold;  
+    padding: 10px;
+    align-self: center;  
+    }
+  
+  .logo:hover,
+  .item:focus,
+  .item:hover {
+    color: #F2A951;
+  }
