@@ -1,0 +1,27 @@
+.main{
+    height: 90vh;
+}
+
+.form{
+    display: grid;
+    height: inherit;
+    grid-template-areas:
+    'input'
+    'input'
+    'input'
+    'input'
+    'input'
+    'input'
+    'submit';
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+}
+.label{
+    grid-area: input;
+    grid-row: 1fr;
+}
+.submit{
+    grid-area: submit;
+    grid-row: 1fr;
+}

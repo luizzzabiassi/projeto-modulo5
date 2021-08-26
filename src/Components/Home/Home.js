@@ -1,14 +1,12 @@
-import React from "react";
-import style from './Home.module.css'
+import React from 'react';
+import Style from './Home.module.css'
 
+const Home = () => {
+    return(
+        <main className={Style.main}>
 
-const Home = () =>{ 
-        return(
-            <main>
-                <h1>Mafia Pub's</h1>
-            </main>
-            
-        )
+        </main>
+    )
 }
 
-export default Home;
+export default Home
