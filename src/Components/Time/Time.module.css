@@ -1,0 +1,18 @@
+.section{ 
+    border: solid red; 
+    display: grid;
+    margin: 50px;
+    grid-template-areas: 
+        "card1 card2"
+        "card3 card4"
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}.card3{
+    grid-area: card3;
+}.card4{
+    grid-area: card4;
+}
