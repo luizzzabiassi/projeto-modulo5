@@ -66,7 +66,8 @@ const UpdateCA = () => {
                 value={IDCA}
                 onChange={selecionaID}
                 required/>
-
+                
+                {IDCA !== null ? <>
                 <label className={Style.input}>Nome:</label>
                 <input 
                 type="text" 
@@ -87,7 +88,8 @@ const UpdateCA = () => {
                 value={VALORCA} 
                 onChange={changeVALORCA} 
                 />
-                <input className={Style.submit} type="submit" value="Enviar" />
+                <input className={Style.submit} type="submit" value="Enviar" /></> : null}
+                
 
                 </form>
                 </section>

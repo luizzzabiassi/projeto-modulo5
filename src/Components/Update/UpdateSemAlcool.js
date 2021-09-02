@@ -3,7 +3,7 @@ import Style from './Update.module.css'
 import Accordion from '../Accordion/Accordion';
 
 const UpdateSA = () => {
-    const [IDSA, setIDSA] = useState(undefined)
+    const [IDSA, setIDSA] = useState(null)
     const [NOMESA, setNOMESA] = useState(undefined)
     const [VALORSA, setVALORSA] = useState(undefined)
     
@@ -57,7 +57,8 @@ const UpdateSA = () => {
                     value={IDSA}
                     onChange={selecionaID}
                     required/>
-
+                    {IDSA !== null 
+                    ? <>
                     <label className={Style.input}>Nome:</label>
                     <input 
                         type="text"
@@ -72,8 +73,11 @@ const UpdateSA = () => {
                     value={VALORSA} 
                     onChange={changeVALORSA}
                     />
+                    <input className={Style.submit} type="submit" value="Enviar" /></>
+                    :null}
+                    
 
-                    <input className={Style.submit} type="submit" value="Enviar" />
+                    
                 </form>
             </section>
     )
