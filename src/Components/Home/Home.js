@@ -3,8 +3,10 @@ import style from "./Home.module.css";
 
 const Home = () => {
   return (
-    <main className={style.main}></main>
+    <main className={style.main}>
+        
+    </main>
   );
 };
 
-export default Home;
+export default Home
