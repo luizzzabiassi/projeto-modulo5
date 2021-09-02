@@ -1,0 +1,36 @@
+.main{
+    height: 1fr;
+    background-color: #131212;
+    color: white;
+}
+
+.div{
+    display: grid;
+    height: inherit;
+    gap: 10px;
+    justify-items: center;
+    align-content: space-around;
+}
+
+.form{
+    display: grid;
+    height: inherit;
+    grid-template-areas: 
+    'h1'
+    'input'
+    'input'
+    'submit';
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.label{
+    grid-area: input;
+    grid-row: 1fr;
+}
+.submit{
+    grid-area: submit;
+    grid-row: 1fr;
+}

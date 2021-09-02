@@ -1,5 +1,7 @@
 .main{
     height: 90vh;
+    background-color: #131212;
+    color: white;
 }
 
 .div{
@@ -14,6 +16,8 @@
     display: grid;
     height: inherit;
     grid-template-areas:
+    'input'
+    'input'
     'input'
     'input'
     'input'

@@ -66,7 +66,7 @@ const UpdateCA = () => {
                 value={IDCA}
                 onChange={selecionaID}
                 required/>
-                
+
                 {IDCA !== null ? <>
                 <label className={Style.input}>Nome:</label>
                 <input 
