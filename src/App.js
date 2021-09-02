@@ -9,7 +9,7 @@ import Home from './Components/Home/Home';
 import Create from './Components/Create/Create'
 import Delete from './Components/Delete/Delete'
 import Update from './Components/Update/Update';
-
+import Drinks from './Components/Drinks/Drinks'
 
 function App(){
   return (
@@ -20,6 +20,7 @@ function App(){
       <Route path="/create" component={Create} />
       <Route path="/delete" component={Delete}/>
       <Route path="/update" component={Update}/>
+      <Route path="/Drinks" component={Drinks}/>
     </Switch>
     <Footer />
   </BrowserRouter>
