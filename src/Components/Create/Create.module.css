@@ -28,10 +28,20 @@
     align-content: center;
 }
 .label{
-    grid-area: input;
-    grid-row: 1fr;
+
 }
 .submit{
     grid-area: submit;
     grid-row: 1fr;
+    background-color: rgb(145, 23, 2);
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.input{
+border-radius: 10px;
 }

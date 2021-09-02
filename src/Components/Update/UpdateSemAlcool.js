@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Style from './Update.module.css'
-import Accordion from '../Accordion/Accordion';
+
 
 const UpdateSA = () => {
     const [IDSA, setIDSA] = useState(null)
@@ -49,25 +49,25 @@ const UpdateSA = () => {
 
     return(
             <section>
-            <h1>Bebidas Sem Álcool</h1>
+            <h1 className={Style.h1}>Bebidas sem Álcool</h1>
                 <form onSubmit={submit} className={Style.form}>
-                    <label className={Style.input}>Id da bebida a ser atualizada.</label>
-                    <input
+                    <label className={Style.label} >Id da bebida a ser atualizada.</label>
+                    <input className={Style.input}
                     type="number"
                     value={IDSA}
                     onChange={selecionaID}
                     required/>
                     {IDSA !== null 
                     ? <>
-                    <label className={Style.input}>Nome:</label>
-                    <input 
+                    <label className={Style.label} >Nome:</label>
+                    <input className={Style.input}
                         type="text"
                         value={NOMESA}
                         onChange={changeNOMESA}
                         />
 
-                    <label className={Style.input}>Valor:</label>
-                    <input 
+                    <label className={Style.label}>Valor:</label>
+                    <input className={Style.input}
                     type="number"
                     step="0.01" 
                     value={VALORSA} 
