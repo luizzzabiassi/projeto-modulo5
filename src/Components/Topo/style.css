@@ -1,0 +1,80 @@
+
+.edit-div-topo{
+    display: flex;
+    width: 100%;
+    background-color:  rgb(19, 18, 18);
+}
+.edit-bg{
+    width: 70%;
+    height: 75vh;
+    margin: 2%;
+    background-image: url('../../Assets/Image/bg2.jpg');
+    background-repeat: no-repeat;
+}
+.edit-bg-texto{
+    width: 90%;
+    margin: 5% 0 0 0;
+    text-align: center;
+    text-align: center;
+    font-family:badScript;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 5px;
+    
+}
+.edit-texto-p{
+    font-family: badScript; 
+    padding: 2% 3%; 
+    font-size: 18px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 1200px){
+    .edit-div-topo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color:  rgb(19, 18, 18);
+    }
+
+    .edit-bg{
+        margin: 0 auto;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+}
+.edit-bg-texto{   
+    width: 95%;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.edit-texto-p{
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 790px) {
+    .edit-bg{
+        margin: 0 auto;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+}
+}
+@media only screen and (max-width: 450px){
+    .edit-bg-texto{
+        width: 100%;
+        font-size: 18px;
+        margin-top: 10%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .edit-texto-p{
+        font-size: 15px;
+    }
+}

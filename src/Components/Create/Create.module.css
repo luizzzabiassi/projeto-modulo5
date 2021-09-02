@@ -1,0 +1,47 @@
+.main{
+    height: 90vh;
+    background-color: #131212;
+    color: white;
+}
+
+.div{
+    display: grid;
+    height: inherit;
+    gap: 10px;
+    justify-items: center;
+    align-content: space-around;
+}
+
+.form{
+    display: grid;
+    height: inherit;
+    grid-template-areas:
+    'input'
+    'input'
+    'input'
+    'input'
+    'input'
+    'input'
+    'submit';
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+}
+.label{
+
+}
+.submit{
+    grid-area: submit;
+    grid-row: 1fr;
+    background-color: rgb(145, 23, 2);
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.input{
+border-radius: 10px;
+}

@@ -1,0 +1,12 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    animation: slide  ;
+    animation-duration: 2s;
+}
+
+@keyframes slide {
+    from{ transform: translateX(0);}
+    to{transform: translateY(200px);}
+}

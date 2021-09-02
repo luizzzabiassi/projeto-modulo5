@@ -1,0 +1,33 @@
+.main{ 
+    height: 100vh;
+    background-color: #131212;
+    color: white;;
+    display: grid;
+    grid-template-areas: 
+        "card1 card2"
+        "card3 card4";
+    gap: 20px;
+    justify-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.card1{
+    grid-area: card1;
+    display: grid;
+    justify-items: center;
+}
+.card2{
+    grid-area: card2;
+    display: grid;
+    justify-items: center;
+}
+.card3{
+    grid-area: card3;
+    display: grid;
+    justify-items: center;
+}
+.card4{
+    grid-area: card4;
+    display: grid;
+    justify-items: center;
+}

@@ -1,3 +1,8 @@
+@font-face{
+  font-family: badScript;
+  src: url('../../Assets/Fonte/CinzelDecorative-Regular.ttf')
+}
+
 .cabecalho {
   display: grid;
   grid-template-columns: 5fr;
@@ -13,20 +18,18 @@
 }
 
 .logo {
-  font-size: 36px;
   text-decoration: none;
   padding: 8px;
   align-self: center;
 }
 
 .item {
-  font-family: "Playfair Display", serif;
-  font-size: 24px;
+  font-family: badScript;
+  font-size: 19px;
   list-style: none;
   text-decoration: none;
   color: #cfcf3c;
   font-weight: bold;
-  padding: 10px;
   align-self: center;
 }
 
@@ -34,4 +37,28 @@
 .item:focus,
 .item:hover {
   color: #f2a951;
+}
+
+.button{
+  padding: 0;
+  border: 0;
+  background-color: #001144;
+  color: #cfcf3c;
+  font-size: 40px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  background-color: #001144;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+}
+.container{
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+.div{
+  display: grid;
 }
