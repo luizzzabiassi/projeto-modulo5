@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Máfia's PUB - Drinks:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- ### [Sobre](#sobre)
+- ### [Dependências](#dependencias)
+- ### [Instalação](#instalacao)
+- ### [Funcionalidades](#funk)
+- ### [Considerações](#consideracoes)
 
-## Available Scripts
+***
+<h2 id="sobre">💪🏻 Sobre o projeto:</h2>
 
-In the project directory, you can run:
+- O **Máfia's PUB** foi criado a partir da ideia de desenvolver uma **View** para **API** do projeto do módulo passado.
+- Para isso utilizamos o **React**, uma bibiblioteca JavaScript para criação de interfaces de usuário em páginas web.
 
-### `yarn start`
+***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="dependencias">🔧 Dependências:</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Para começar, você precisará do **Node** instalado na sua máquina, assim você conseguirá rodar os scripts que é utilzado para baixar as dependências **npm** e inicializar o projeto. Utilize este [link](https://nodejs.org/en/) e baixe a versão **LTS** de acordo com o sistema operacional do seu computador.
+Ao terminar a instalação, você pode testar se ocorreu tudo bem usando o comando abaixo, que terá que retornar a versão que foi instalada:
 
-### `yarn test`
+``` powershell
+node -v
+```
+***
+- Primeiro, comece com um git clone desse projeto, clicando no botão **Code** aqui no repositório e copiando o link **HTTPS**. Após isso, abra o **Git Bash** na pasta em que você quer manter este projeto. Caso não tenha o **Git**, vá para esse [link](https://git-scm.com/downloads) e instale a último versão para o seu sistema operacional.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` bash
+git clone https://github.com/luizzzabiassi/projeto-modulo5.git
+```
+***
+- Agora que você tem o projeto no seu computador você terá que baixar mais algumas dependências usadas nele. Começando com o **RouterDOM**, que é uma biblioteca de roteamento padrão do **React**. Ele serve como um roteador para gerenciar as URL's das aplicações, quando você precisa navegar por uma aplicação
+com várias visualizações.
 
-### `yarn build`
+``` powershell
+npm i react-router-dom
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` powershell
+yarn add react-router-dom
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Outra biblioteca, que vai ajudar na estlização é o **styled-components**, junta o CSS com os componentes em **React**, otimizando a experiência do desenvolvedor.
+``` powershell
+npm i styled-components
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` powershell
+yarn add styled-components
+```
+***
+<h2 id="instalacao">💻 Instalação do React:</h2>
 
-### `yarn eject`
+- Pórem, se você quiser criar o seu projeto **React** do zero, o comando utilizado é o seguinte:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+``` powershell
+npx create-react-app my-app
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``` powershell
+yarn add create-react-app
+```
+- O **my-app** é totalmente opcional, ele será o nome da pasta do seu projeto, onde ele irá instalar o **React**, e o **npx** é package runner que já vem no **npm**.
+***
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h2 id="funk">🚄 Funcionalidades do projeto:</h2>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Como foi dito lá em cima, o projeto foi a criação da View de um outro projeto, que foi a criação de uma API, e para isso utilizamos o acrônimo **CRUD** e os métodos responsáveis para **_criar, ler, atualizar e deletar dados_**. Caso você não tenha tanto conhecimento no assunto você pode ler [aqui](https://github.com/Gonary/Pub#readme) o ReadMe da API usada nesse projeto.
 
-## Learn More
+1. Na barra de navegação da página, temos a opção de **Drinks** onde foi utlizado o método **GET** e você fará a sua busca pelos drinks que você quiser, seja com e sem álcool.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Ainda na barra de navegação temos um botão para mais opções, indo para o **Create**, utilizamos o método **POST** para poder criar novos dados, basta preencher o formulário de acordo com tipo de bebida que você quer inserir, com álcool ou sem.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Já na opção **Update**, foi utilizado o método **PUT**, para poder atualizar qualquer dado, seja de uma bebida com álcool ou sem. Basta informar primeiro o **ID** da bebida que você quer alterar, depois disso, o formulário com os campos ficará disponível.
 
-### Code Splitting
+4. Por último, a opção **Delete**, na qual foi usado o método **DELETE**, e como o nome já diz, ele irá deletar o dado no qual pertence ao **ID** informado.
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h2 id="consideracoes">🎈 Considerações finais:</h2>
+- Você pode conferir o **ID** dos dados e se **API** foi alterado utilizando a página de **Drinks**, para conferir se realmente o dado foi atualizado, deletado ou criado.
+- Abaixo está os links dos repositórios de cada projeto de **API** feita no projeto do módulo passado na [Resilia Educação](https://www.resilia.com.br/) e o nome do integrantes desse e do outro projeto:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  1. [Luany](https://github.com/luanyss/PUB-Funcionarios)
+  2. [Luiza](https://github.com/luizzzabiassi/projeto-modulo4)
+  3. [Lucas](https://github.com/Gonary/Pub)
+  4. [Hiensen](https://github.com/hiensenn/Api_Pub-Client)
