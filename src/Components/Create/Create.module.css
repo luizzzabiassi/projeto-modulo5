@@ -2,12 +2,18 @@
     height: 90vh;
 }
 
+.div{
+    display: grid;
+    height: inherit;
+    gap: 10px;
+    justify-items: center;
+    align-content: space-around;
+}
+
 .form{
     display: grid;
     height: inherit;
     grid-template-areas:
-    'input'
-    'input'
     'input'
     'input'
     'input'
