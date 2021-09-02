@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Style from './Update.module.css'
 
 const UpdateCA = () => {
@@ -57,32 +57,32 @@ const UpdateCA = () => {
 
     return(
             <section>
-            <h1>Bebidas com Álcool</h1>
+            <h1 className={Style.h1}>Bebidas com Álcool</h1>
             {console.log(IDCA)}
             <form onSubmit={updateCA} className={Style.form}>
-                <label className={Style.input}>Id da bebida a ser atualizada.</label>
-                <input
+                <label className={Style.label}>Id da bebida a ser atualizada.</label>
+                <input className={Style.input}
                 type="number"
                 value={IDCA}
                 onChange={selecionaID}
                 required/>
-                
+
                 {IDCA !== null ? <>
-                <label className={Style.input}>Nome:</label>
-                <input 
+                <label className={Style.label}>Nome:</label>
+                <input className={Style.input}
                 type="text" 
                 value={NOMECA} 
                 onChange={changeNOMECA} 
                 />
-                <label className={Style.input}>Teor Alcólico:</label>
-                <input 
+                <label className={Style.label}>Teor Alcólico:</label>
+                <input className={Style.input}
                 type="number"
                 step="0.01" 
                 value={TEOR} 
                 onChange={changeTEOR} 
                 />
-                <label className={Style.input}>Valor:</label>
-                <input 
+                <label className={Style.label}>Valor:</label>
+                <input className={Style.input}
                 type="number" 
                 step="0.01" 
                 value={VALORCA} 

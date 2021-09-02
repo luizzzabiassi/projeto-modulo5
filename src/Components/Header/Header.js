@@ -46,8 +46,8 @@ const Header = ()=>{
                         ☰
                     </button>
                     {state.open && (
-                    <div class={style.dropdown}>
-                    <ul>
+                    <div class={style.div}>
+                    <ul class={style.dropdown}>
                     <Link className={style.item} to='/create'><li>Create</li></Link>
                     <Link className={style.item} to='/update'><li>Update</li></Link>
                     <Link className={style.item} to='/delete'><li>Delete</li></Link>

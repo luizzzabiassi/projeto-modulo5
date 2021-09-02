@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Style from './Delete.module.css'
 
 const DeleteCA = () => {
@@ -34,8 +34,8 @@ const DeleteCA = () => {
             <section>
                 <h1>Bebidas com Álcool</h1>
                 <form onSubmit={deleteCA} className={Style.form}>
-                    <label>Id da bebida a ser deletada: </label>
-                    <input
+                    <label className={Style.label}>Id da bebida a ser deletada: </label>
+                    <input className={Style.input}
                     type="number"
                     value={IDCA}
                     onChange={selecionaIDCA}

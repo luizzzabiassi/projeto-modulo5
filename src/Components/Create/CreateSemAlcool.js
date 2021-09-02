@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import Style from './Create.module.css'
-import Accordion from '../Accordion/Accordion';
+import React, {useState} from 'react';
+import Style from './Create.module.css';
 
 const CreateSA = () => {
     const [NOMESA, setNOMESA] = useState(undefined)
@@ -45,15 +44,15 @@ const CreateSA = () => {
             <section>
             <h1>Bebidas Sem Álcool</h1>
                 <form onSubmit={submit} className={Style.form}>
-                    <label className={Style.input}>Nome:</label>
-                    <input 
+                    <label >Nome:</label>
+                    <input className={Style.input}
                         type="text"
                         value={NOMESA}
                         onChange={changeNOMESA}
                         required/>
 
-                    <label className={Style.input}>Valor:</label>
-                    <input 
+                    <label >Valor:</label>
+                    <input className={Style.input}
                     type="number"
                     step="0.01" 
                     value={VALORSA} 

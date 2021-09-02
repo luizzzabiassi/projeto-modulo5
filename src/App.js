@@ -8,8 +8,6 @@ import Home from './Components/Home/Home';
 import Create from './Components/Create/Create'
 import Delete from './Components/Delete/Delete'
 import Update from './Components/Update/Update';
-import Drinks from './Components/Drinks/Drinks';
-import Quemsomos from './Components/Corpo/Corpo.jsx'
 
 
 function App(){
@@ -21,8 +19,6 @@ function App(){
       <Route path="/create" component={Create} />
       <Route path="/delete" component={Delete}/>
       <Route path="/update" component={Update}/>
-      <Route path="/drinks" component={Drinks} exact />
-      <Route path="/SobreNos" component={Quemsomos} exact/>
     </Switch>
     <Footer />
   </BrowserRouter>

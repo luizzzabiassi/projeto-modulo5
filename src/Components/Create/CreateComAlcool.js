@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Style from './Create.module.css'
 
 const CreateCA = () => {
@@ -51,22 +51,22 @@ const CreateCA = () => {
             <section>
             <h1>Bebidas com Álcool</h1>
             <form onSubmit={submitCA} className={Style.form}>
-                    <label className={Style.input}>Nome:</label>
-                    <input 
+                    <label >Nome:</label>
+                    <input className={Style.input}
                     type="text"
                     value={NOMECA}
                     onChange={changeNOMECA}
                     required/>
                     
-                    <label className={Style.input}>Teor Alcólico:</label>
-                    <input 
+                    <label >Teor Alcólico:</label>
+                    <input className={Style.input}
                     type="number" 
                     value={TEOR} 
                     onChange={changeTEOR}
                     required/>
                     
-                    <label className={Style.input}>Valor:</label>
-                    <input 
+                    <label >Valor:</label>
+                    <input className={Style.input}
                     type="number" 
                     value={VALORCA} 
                     onChange={changeVALORCA}
