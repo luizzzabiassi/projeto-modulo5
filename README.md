@@ -77,6 +77,7 @@ yarn add create-react-app
 ***
 
 <h2 id="consideracoes">🎈 Considerações finais:</h2>
+
 - Você pode conferir o **ID** dos dados e se **API** foi alterado utilizando a página de **Drinks**, para conferir se realmente o dado foi atualizado, deletado ou criado.
 - Abaixo está os links dos repositórios de cada projeto de **API** feita no projeto do módulo passado na [Resilia Educação](https://www.resilia.com.br/) e o nome do integrantes desse e do outro projeto:
 
