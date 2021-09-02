@@ -1,3 +1,4 @@
+
 import React from "react";
 import Card from "./Home";
 import style from "./Home.module.css";
@@ -11,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home
