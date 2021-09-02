@@ -1,71 +1,42 @@
-.cabecalho{
-    display: grid;
-    grid-template-columns: 5fr;
-    justify-content: space-around;
-    height: 150px;
-    background-color: #001144;
-  }
-     
-  .nav{
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
-  }
-  
-  .logo{
-    font-size: 36px;
-    text-decoration: none;
-    padding: 8px;
-    align-self: center;
-  }
-     
-  .item{
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;  
-    list-style: none;
-    text-decoration: none;
-    color: #CFCF3C;
-    font-weight: bold;  
-    padding: 10px;
-    align-self: center;  
-    }
-  
-  .logo:hover,
-  .item:focus,
-  .item:hover {
-    color: #F2A951;
-  }
 
+@font-face{
+  font-family: badScript;
+  src: url('../../Assets/Fonte/CinzelDecorative-Regular.ttf')
+}
 
-  .container {
-    position: relative;
-    display: inline-block;
-  }
-  .button {
-    padding: 0;
-    width: 100%;
-    border: 0;
-    background-color: #001144;
-    color: #CFCF3C;
-    font-size: 40px;
-  }
-  .dropdown {
-    position: absolute;
-    width: inherit;
-    background-color: #001144 ;
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  li {
-    padding: 8px 12px;
-  }
-  
-  li:hover {
-    background-color: rgba(0, 0, 0, 0.14);
-    cursor: pointer;
-  }
+.cabecalho {
+  display: grid;
+  grid-template-columns: 5fr;
+  justify-content: space-around;
+  height: 150px;
+  background-color: #001144;
+}
+
+.nav {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.logo {
+  text-decoration: none;
+  padding: 8px;
+  align-self: center;
+}
+
+.item {
+  font-family: badScript;
+  font-size: 19px;
+  list-style: none;
+  text-decoration: none;
+  color: #cfcf3c;
+  font-weight: bold;
+  padding: 10px;
+  align-self: center;
+}
+
+.logo:hover,
+.item:focus,
+.item:hover {
+  color: #f2a951;
+}
