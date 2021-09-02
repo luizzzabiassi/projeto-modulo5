@@ -2,6 +2,7 @@
   font-family: badScript;
   src: url('../../Assets/Fonte/CinzelDecorative-Regular.ttf')
 }
+
 .main {
   height: 90vh;
   background-image: url("../../Assets/Image/bg2.jpg");
@@ -9,11 +10,12 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 .h1{
   margin: 0;
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 45vh;
   align-items: center;
   font-family: badScript;
   background-color: rgba(87, 140, 190, 0.6);
