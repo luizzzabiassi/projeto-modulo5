@@ -83,6 +83,10 @@ function Slide(){
             }, 3000)
         })   
 
+        return ()=>{
+            clearInterval(intervaloSlides.current)   
+        }
+
     }, [])
 
 

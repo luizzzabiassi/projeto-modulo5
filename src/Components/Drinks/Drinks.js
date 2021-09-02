@@ -45,6 +45,7 @@ function Drinks() {
             <div className={styles.drink} key={item.ID}>
               {item.NOME?.toLowerCase().includes(value.toLowerCase()) ? (
                 <>
+                  <p>{item.ID}</p>
                   <h4 className={styles.name}>{item.NOME}:</h4>
                   {item.TEOR_ALCOOLICO ? <p className={styles.text}>Teor Alcoólico: {item.TEOR_ALCOOLICO}</p> : null}
                   <p className={styles.text}>Preço: {item.VALOR}</p>

@@ -38,7 +38,7 @@ const Header = ()=>{
         <nav className={style.nav}>
             <Link className={style.logo} to='/'><img src={Foto}/></Link>
             <Link className={style.item} to='/Drinks'>Drinks</Link>
-            <Link className={style.item} to='/SobreNos'>Sobre Nós</Link>
+            <Link className={style.item} to='/QuemSomos'>Quem Somos</Link>
             <Link className={style.item} to='/NossoTime'>Nosso Time</Link>
             <div onClick={handleButtonClick} className={`${style.App}, ${style.item}`}>
                 <div className={style.container} ref={container}>

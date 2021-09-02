@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Topo/style.css'
-import bg from '../../assets/Image/bg2.jpg'
+import bg from '../../Assets/Image/bg2.jpg'
 
 
 function Topo() {

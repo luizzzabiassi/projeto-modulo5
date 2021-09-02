@@ -3,9 +3,9 @@ import '../ImgGrad/Img.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import petisco from '../../assets/Image/petisco.jpg'
-import hp from '../../assets/Image/happyhour.jpg'
-import karaoke from '../../assets/Image/karaoke.jpg'
+import petisco from '../../Assets/Image/petisco.jpg'
+import hp from '../../Assets/Image/happyhour.jpg'
+import karaoke from '../../Assets/Image/karaoke.jpg'
 
 
 function ImgGrad() {
