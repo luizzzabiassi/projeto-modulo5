@@ -11,6 +11,7 @@ import Delete from './Components/Delete/Delete'
 import Update from './Components/Update/Update';
 import Drinks from './Components/Drinks/Drinks';
 import Corpo from './Components/Corpo/Corpo.jsx';
+import Time from './Components/Time/Time'
 
 function App(){
   return (
@@ -24,6 +25,7 @@ function App(){
       <Route path="/create" component={Create} />
       <Route path="/delete" component={Delete}/>
       <Route path="/update" component={Update}/>
+      <Route path="/NossoTime" component={Time}/>
       
     </Switch>
     <Footer />
