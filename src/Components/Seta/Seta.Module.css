@@ -1,0 +1,77 @@
+@font-face{
+    font-family: badScript;
+    src: url('../../Assets/Fonte/CinzelDecorative-Regular.ttf')
+}
+.edit_icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+}
+.edit_icone > img{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.edit_p{
+    width: 100%;
+    color: whitesmoke;
+    font-family: badScript; 
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 2%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+@media only screen and (max-width: 1200px){
+
+    .edit_icone{
+        width: 100%;
+      }
+      .edit_bg-texto_seta_p{
+        margin: 0 auto;
+        margin: 0 auto;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+}
+@media only screen and (max-width: 790px){
+    .edit_bg_texto{
+        width: 100%;
+        margin-top: 5%;
+        object-fit: cover;
+        object-position: center;
+
+}
+    .edit_bg_texto_seta_p{
+        margin: 0 auto;
+        margin: 0 auto;
+        object-fit: cover;
+        object-position: center;
+}
+}
+@media only screen and (max-width: 460px){
+    .edit_bg_texto_seta_p{
+        margin: 0 auto;
+        width: 100%;  
+        object-fit: cover;
+        object-position: center;
+    
+    }
+    .edit_p{
+        width: 100%;
+    }
+    .edit_icone > img{
+        width: 100%;
+        margin-top: 5%;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+}
+
