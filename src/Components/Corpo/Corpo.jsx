@@ -7,7 +7,7 @@ import Topo from '../Topo/Topo'
 
 
 
-function Quemsomos(){
+function Corpo(){
 
 
     
@@ -26,4 +26,4 @@ function Quemsomos(){
     )
 }
 
-export default Quemsomos
+export default Corpo

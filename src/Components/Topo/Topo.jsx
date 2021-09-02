@@ -1,20 +1,20 @@
 import React from 'react'
-import style from './style.Module.css'
-import bg from '../../Assets/Image/bg2.jpg'
+import '../Topo/style.css'
+import bg from '../../assets/Image/bg2.jpg'
 
 
 function Topo() {
     return (
         <div >
-                <div className={style.edit_div_topo}>
+                <div className="edit-div-topo">
                     
-                    <img src={bg} className={style.edit_bg}/>
+                    <img src={bg} className="edit-bg"/>
 
                 <div >
                    
-                    <h1 className={style.edit_bg_texto}>É um prazer conhecer você!</h1>
+                    <h1 className="edit-bg-texto">É um prazer conhecer você!</h1>
 
-                    <p className={style.edit_texto_p}>O Mafia´s Pub surge no momento em que apaixonados por cerveja se encontram e decidem fazer algo diferente. Unindo cultura e tecnologia, conseguimos diminuir a distância entre nosso Pub e nossos clientes.  </p>
+                    <p className="edit-texto-p">O Mafia´s Pub surge no momento em que apaixonados por cerveja se encontram e decidem fazer algo diferente. Unindo cultura e tecnologia, conseguimos diminuir a distância entre nosso Pub e nossos clientes.  </p>
                     
                     
                 </div>

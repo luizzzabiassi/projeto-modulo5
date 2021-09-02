@@ -1,15 +1,18 @@
 import React from 'react'
-import style from './Seta.Module.css'
-import Arrow from './seta.gif'
+import '../Seta/seta.css'
+import Arrow from '../Seta/seta.gif'
+import Slide from '../Slide/Slide.jsx'
 
 function Seta(){
     return (
-        <div className={style.edit_icone}>
+        <div className="edit-icone ">
             <img src={Arrow} />
-            <div> <p className={style.edit_p}>Nosso Ambiente</p> </div>
-            {/* carrousel */}
+            <div> <p className="edit-p">Nosso Ambiente</p> </div>
+                <main>
+                <Slide/>
+                </main>
             <img src={Arrow} />
-            <div> <p className={style.edit_p}>Nossa Semana</p> </div>
+            <div> <p className="edit-p">Nossa Semana</p> </div>
 
         </div>
     )

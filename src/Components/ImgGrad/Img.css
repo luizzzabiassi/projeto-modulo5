@@ -1,0 +1,72 @@
+    .edit-div-default{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+}
+.edit-div{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+   background-color: rgba(146, 44, 13, 0.87);
+}
+
+.edit-div-2{
+    display: flex;
+    width: 100%;
+    margin: 2% 2% 0 0;
+}
+
+
+.img-default{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+.edit-texto-p{
+    font-family: badScript; 
+    padding: 2% 3%; 
+    font-size: 18px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .edit-div {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .edit-texto-p{
+        text-align: center;
+      }
+}
+@media only screen and (max-width: 790px){
+    .edit-div {
+        display: flex;
+        flex-direction: column;
+}
+    .img-default{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+}
+.edit-div-2{
+    display: flex;
+    flex-flow:column-reverse;
+ 
+}
+}
+@media only screen and (max-width: 450px){
+    .edit-texto-p{
+        font-size: 15px;
+    }
+}
