@@ -81,7 +81,7 @@ yarn add create-react-app
 - Você pode conferir o **ID** dos dados e se **API** foi alterado utilizando a página de **Drinks**, para conferir se realmente o dado foi atualizado, deletado ou criado.
 - Abaixo está os links dos repositórios de cada projeto de **API** feita no projeto do módulo passado na [Resilia Educação](https://www.resilia.com.br/) e o nome do integrantes desse e do outro projeto:
 
-  1. [Luany](https://github.com/luanyss/PUB-Funcionarios)
-  2. [Luiza](https://github.com/luizzzabiassi/projeto-modulo4)
-  3. [Lucas](https://github.com/Gonary/Pub)
-  4. [Hiensen](https://github.com/hiensenn/Api_Pub-Client)
+1. [Luany](https://github.com/luanyss/PUB-Funcionarios)
+2. [Luiza](https://github.com/luizzzabiassi/projeto-modulo4)
+3. [Lucas](https://github.com/Gonary/Pub)
+4. [Hiensen](https://github.com/hiensenn/Api_Pub-Client)
